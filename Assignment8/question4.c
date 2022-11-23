@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+int main()
+{
+    int x,y, i, j;
+
+    printf("Enter the equal number of rows and column ");
+    scanf("%d %d", &x,&y);
+    for (i = 0; i < x ; i++)
+    {
+        for (j = 0; j < y ; j++)
+        {   
+            if (i<=j)
+                 printf("*");
+            
+            else
+            printf(" ");
+           
+        }
+        printf("\n");
+    }
+    return 0;
+}
